@@ -2,7 +2,7 @@ body{
 	background: #fff;
 }
 .cart{
-	margin: 100px 0;
+	margin: 30px 0;
 	background-color: #F6F5FA;;
 	padding: 60px 0;
 }
@@ -46,10 +46,23 @@ body{
 .status{
 	text-align: right;
 }
+
+/* Check Out page */
+#check__out{
+	display: none;
+}
 .check-out{
     float: right;
     padding: 10px 30px;
 	font-size: 19px;
 	background-color: #2FBE70;
 	border: none;
+}
+
+#phone-remove {
+	cursor: pointer;
+}
+
+#case-remove {
+	cursor: pointer;
 }
